@@ -17,5 +17,6 @@ AVAILABLE SOON (for now the lib will be here: https://togi-cloud.ngrok.io/tlogg-
   To run the console, run the <code>runTconsole()</code> function. this can be applied to a button/element with <code>onclick="runTconsole()"</code>
   ### The console output element can be set with the ID of <code>console</code> Ex. <code> &lt;div id="console"&gt;&lt;/div&gt;</code>
   ### The console input text/textarea can be set with the ID of <code>tlog</code> Ex. <code> &lt;textarea id="tlog"&gt;&lt;/textarea&gt;</code>
+  ##### [TEXTAREA ONLY] There is a Autocomplete function that is still in the works, however if youd like to use it, add this attribute to the textarea <code>oninput="autoTFinish(this)"</code>
   NOTE: You dont need to use a visible text area. just make a hidden text area and put the TLOG Markdown in there. that is if you want to have a pre-set custom console log.
             
