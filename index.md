@@ -5,7 +5,7 @@ t-logg is a JS Library that allows a "fake" console to be produced in HTML,<br><
 ![image](https://user-images.githubusercontent.com/71170613/151911503-01a7840d-2897-41b3-9bd8-b13fc007bb4f.png)
 # Install Into Your Project
 <code>&lt;script src="https://togar.app/libs/t-logg@0.2.9.js" &gt;&lt;script&gt;</code><br>
-AVAILABLE SOON (for now the lib will be here: https://togi-cloud.ngrok.io/tlogg-test/t-logg@0.2.9.js)
+AVAILABLE SOON (for now the lib will be here: <a href=https://togi-cloud.ngrok.io/tlogg-test/t-logg@0.2.9.js>https://togi-cloud.ngrok.io/tlogg-test/t-logg@0.2.9.js</a>)
 # Demo Site
 ## https://togi-cloud.ngrok.io/tlogg-test
 # TLOGG Markdown
