@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Tlogg, Making Your Stie Look Cool
 
 You can use the [editor on GitHub](https://github.com/TOG11/tlogg/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
