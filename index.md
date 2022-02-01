@@ -1,8 +1,7 @@
 ## Tlogg, Making Your Stie Look Cool
 
-You can use the [editor on GitHub](https://github.com/TOG11/tlogg/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+t-logg was developed with one thing in mind,
+FUN.
 
 ### Markdown
 
