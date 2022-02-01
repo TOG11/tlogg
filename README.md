@@ -24,7 +24,6 @@ AVAILABLE SOON (for now the lib will be here: https://togi-cloud.ngrok.io/tlogg-
   you can also style the console text with <code>.tlog-console-text{font: coolfont;}</code> this effects the console text globaly 
   # Example
   
-  in your HTML document add these following styles & elements in this order,<br>
   ```html
 <!DOCTYPE html>
 <html>
