@@ -1,6 +1,6 @@
 # tlogg V0.2.9
-t-logg is a JS Library that allows a "fake" console to be produced via HTML.
-
+t-logg is a JS Library that allows a "fake" console to be produced via HTML,<br><br>
+![image](https://user-images.githubusercontent.com/71170613/151911503-01a7840d-2897-41b3-9bd8-b13fc007bb4f.png)
 # Install Into Your Project
 <code>&lt;script src="https://togar.app/libs/t-logg@0.2.9.js" &gt;&lt;script&gt;</code>
 AVAILABLE SOON
