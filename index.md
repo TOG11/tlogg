@@ -1,29 +1,14 @@
 ## Tlogg, Making Your Stie Look Cool
 
-t-logg was developed with one thing in mind,
-FUN.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
+# tlogg V0.2.9
+t-logg is a JS Library that allows a "fake" console to be produced in HTML,<br><br>
+![image](https://user-images.githubusercontent.com/71170613/151911503-01a7840d-2897-41b3-9bd8-b13fc007bb4f.png)
+# Install Into Your Project
+<code>&lt;script src="https://togar.app/libs/t-logg@0.2.9.js" &gt;&lt;script&gt;</code><br>
+AVAILABLE SOON (for now the lib will be here: https://togi-cloud.ngrok.io/tlogg-test/t-logg@0.2.9.js)
+# Demo Site
+## https://togi-cloud.ngrok.io/tlogg-test
+# TLOGG Markdown
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
