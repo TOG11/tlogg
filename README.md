@@ -52,7 +52,7 @@ const TLN={eventList:{},update_line_numbers:function(e,n){let t=e.value.split("\
 </html>
   ```
   # Styles
-  (these styles are used on the demo page, without their positions moved)
+  (these styles are used on the demo page, with their positions moved to be side-by-side)
   ```css
       .run {
         width: 502px;
