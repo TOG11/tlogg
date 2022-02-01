@@ -11,7 +11,8 @@ AVAILABLE SOON (for now the lib will be here: https://togi-cloud.ngrok.io/tlogg-
 &lt;t&gt;TEXT&lt;/t&gt; This element is used to define text within the console. <br><br>
 &lt;t&gt;TEXT&lt;/t&gt; Also has attributes, &lt;t c=(color name OR hex) wms=(wait in milliseconds)&gt;TEXT&lt;/t&gt; <br><br>
 &lt;t c=#0096FF wms=120&gt;&gt;TEXT&lt;/t&gt; this would produce blue text in the console, and would take 120 milliseconds to appear.<br><br>
-&lt;t hidden&gt;Hidden Text&lt;/t&gt;, this type of text wont appear in the console.
+&lt;t hidden&gt;Hidden Text&lt;/t&gt;, this type of text wont appear in the console.<br>
+&lt;br&gt; will create a new line for the console. 
   
   ## Use In HTML
   To run the console, run the <code>runTconsole()</code> function. this can be applied to a button/element with <code>onclick="runTconsole()"</code>
