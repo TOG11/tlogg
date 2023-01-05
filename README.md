@@ -2,10 +2,9 @@
 t-logg is a JS Library that allows a "fake" console to be produced in HTML,<br><br>
 ![image](https://user-images.githubusercontent.com/71170613/151911503-01a7840d-2897-41b3-9bd8-b13fc007bb4f.png)
 # Install Into Your Project
-<code>&lt;script src="https://togar.app/libs/t-logg@0.2.9.js" &gt;&lt;/script&gt;</code><br>
-AVAILABLE SOON (for now the lib will be here: https://togi-cloud.ngrok.io/tlogg-test/t-logg@0.2.9.js)
+<code>&lt;script src="http://tlogg.tog1.me:5667/t-logg@0.2.9.js" &gt;&lt;/script&gt;</code><br>
 # Demo Site
-## https://togi-cloud.ngrok.io/tlogg-test
+## http://tlogg.tog1.me:5667/tlogg-demo
 # TLOGG Markdown
 
 &lt;t&gt;TEXT&lt;/t&gt; This element is used to define text within the console. <br><br>
@@ -28,7 +27,7 @@ AVAILABLE SOON (for now the lib will be here: https://togi-cloud.ngrok.io/tlogg-
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="https://togi-cloud.ngrok.io/tlogg-test/t-logg@0.2.9.js" ></script>
+        <script src="http://tlogg.tog1.me:5667/t-logg@0.2.9.js" ></script>
         <script>
         //load text-line-number
 const TLN={eventList:{},update_line_numbers:function(e,n){let t=e.value.split("\n").length-n.children.length;if(t>0){const e=document.createDocumentFragment();for(;t>0;){const n=document.createElement("span");n.className="tln-line",e.appendChild(n),t--}n.appendChild(e)}for(;t<0;)n.removeChild(n.lastChild),t++},append_line_numbers:function(e){const n=document.getElementById(e);if(null==n)return console.warn("[tln.js] Couldn't find textarea of id '"+e+"'");if(-1!=n.className.indexOf("tln-active"))return console.warn("[tln.js] textarea of id '"+e+"' is already numbered");n.classList.add("tln-active"),n.style={};const t=document.createElement("div");t.className="tln-wrapper",n.parentNode.insertBefore(t,n),TLN.update_line_numbers(n,t),TLN.eventList[e]=[];const l=["propertychange","input","keydown","keyup"],o=function(e,n){return function(t){(10!=+e.scrollLeft||37!=t.keyCode&&37!=t.which&&"ArrowLeft"!=t.code&&"ArrowLeft"!=t.key)&&36!=t.keyCode&&36!=t.which&&"Home"!=t.code&&"Home"!=t.key&&13!=t.keyCode&&13!=t.which&&"Enter"!=t.code&&"Enter"!=t.key&&"NumpadEnter"!=t.code||(e.scrollLeft=0),TLN.update_line_numbers(e,n)}}(n,t);for(let t=l.length-1;t>=0;t--)n.addEventListener(l[t],o),TLN.eventList[e].push({evt:l[t],hdlr:o});const r=["change","mousewheel","scroll"],s=function(e,n){return function(){n.scrollTop=e.scrollTop}}(n,t);for(let t=r.length-1;t>=0;t--)n.addEventListener(r[t],s),TLN.eventList[e].push({evt:r[t],hdlr:s})},remove_line_numbers:function(e){const n=document.getElementById(e);if(null==n)return console.warn("[tln.js] Couldn't find textarea of id '"+e+"'");if(-1==n.className.indexOf("tln-active"))return console.warn("[tln.js] textarea of id '"+e+"' isn't numbered");n.classList.remove("tln-active");const t=n.previousSibling;if("tln-wrapper"==t.className&&t.remove(),TLN.eventList[e]){for(let t=TLN.eventList[e].length-1;t>=0;t--){const l=TLN.eventList[e][t];n.removeEventListener(l.evt,l.hdlr)}delete TLN.eventList[e]}}};window.addEventListener("load",e=>{TLN.append_line_numbers("tlog")});
